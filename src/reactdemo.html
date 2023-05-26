@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Poppins;
+        }
+
+        .main {
+            position: relative;
+            width: 550px;
+            height: 550px;
+            background: #FFFFFF;
+            border: 1px solid black;
+        }
+
+        header {
+            position: absolute;
+            width: 550px;
+            height: 65px;
+            left: 0px;
+            top: 0px;
+            background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+        }
+
+        .logo {
+            position: absolute;
+            width: 178.79px;
+            height: 26.22px;
+            left: 20px;
+            top: 5px;
+        }
+
+        .troll-face {
+            position: absolute;
+            width: 31.31px;
+            height: 26.22px;
+            left: 20px;
+            top: 19px;
+        }
+
+        .title {
+            position: absolute;
+            width: 140.79px;
+            height: 24px;
+            left: 58px;
+            top: 21px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 100;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.1em;
+            color: #FFFFFF;
+        }
+
+        .text-input1 {
+            position: absolute;
+            width: 230px;
+            height: 35px;
+            left: 36px;
+            top: 101px;
+            border-radius: 10px;
+            border: 1px solid #D5D4D8;
+        }
+
+        .text-input2 {
+            position: absolute;
+            width: 230px;
+            height: 35px;
+            left: 283px;
+            top: 101px;
+            border-radius: 10px;
+            border: 1px solid #D5D4D8;
+        }
+
+        .generate {
+            position: absolute;
+            width: 477px;
+            height: 40px;
+            left: 36px;
+            top: 151px;
+            background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+            border-radius: 5px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 100;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            letter-spacing: -0.1em;
+            color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .meme {
+            position: absolute;
+            width: 477px;
+            height: 268px;
+            left: 36px;
+            top: 227px;
+            background: url("memeimg.png");
+            border-radius: 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="logo">
+                <img src="Troll-Face.png" alt="Troll Face"class="troll-face">
+                <span class="title">Meme Generator</span>
+            </div>
+        </header>
+        <main>
+            <form class="inputs">
+                <input type="text" class="text-input1"><input type="text" class="text-input2">
+            </form>
+        </main>
+        <div class="generate">Get a new meme image</div>
+        <div class="meme"></div>
+    </div>
+</body>
+</html>
